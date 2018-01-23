@@ -34,11 +34,13 @@ HousePricing旨在提供房价的可视化预测，帮助用户更好的评估�
 
 
 
-<img src="/lib/screen3.png">
+<img src="/lib/bigwork1.png">
 
-<img src="/lib/screen4.png">
+<img src="/lib/bigwork2.png">
 
-<img src="/lib/screen5.png">
+<img src="/lib/bigwork3.png">
+
+<img src="/lib/bigwork4.png">
 
 ## 数据说明
 
@@ -48,7 +50,7 @@ HousePricing旨在提供房价的可视化预测，帮助用户更好的评估�
 
 ## 开发
 
-原始数据由[scrapy-hoursepricing](https://github.com/PENGZhaoqing/scrapy-hoursepricing)爬取，抓取后的数据将存为json格式，然后由HousePricing进行解析并储存在数据库中
+原始数据由[scrapy-hoursepricing](https://github.com/ParadoxLiu/bigwork/tree/master1/spider/__init__)爬取，抓取后的数据将存为json格式，然后由HousePricing进行解析并储存在数据库中
 
 本项目由rails框架开发，请自行安装相关环境，请先fork此项目，然后运行下面：
 
