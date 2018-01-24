@@ -22,7 +22,7 @@ HousePricing旨在提供房价的可视化预测，帮助用户更好的评估�
 
 ## 截图
 
-<img src="/lib/bigwork0.png">
+
 
 <img src="/lib/bigwork1.png">
 
