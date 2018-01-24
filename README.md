@@ -34,9 +34,10 @@ HousePricing旨在提供房价的可视化预测，帮助用户更好的评估�
 
 ## 数据说明
 
-现有的一些字段以及字段之间的关联如下：
+在房源house_table添加spider_status字段，用来记录房屋周边爬取进度
+添加历史数据表，用来记录房源历史价格数据
 
-<img src="/lib/data_type.png" width="700">
+
 
 ## 开发
 
