@@ -1,4 +1,19 @@
-外网访问地址：https://stormy-ridge-75886.herokuapp.com
+## 外网访问地址：
+https://stormy-ridge-75886.herokuapp.com
+## 部署过程
+###项目部署
+* 打开命令行进入项目目录
+* heroku create 创建app，已经自动关联heroku的git地址
+* git push heroku master  //将项目推送的heroku服务器
+* heroku run rake db:migrate   //生成数据库表
+###导入数据
+* 在本地用pg:dump 导出数据库数据 到mydb.dump文件
+* 登陆amazon s3 服务将 mydb.dump 上传到服务器，并设置成共享访问
+* 命令行运行 heroku pg:backups:restore 'https://s3.amazonaws.com/me/items/3H0q/mydb.dump' //引号内为自己的s3 mydb.dump的访问地址
+
+
+
+
 # HousePricing
 
 HousePricing旨在提供房价的可视化预测，帮助用户更好的评估房产和预测未来的价格
