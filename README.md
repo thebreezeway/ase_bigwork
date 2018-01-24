@@ -1,4 +1,4 @@
-
+外网访问地址：https://stormy-ridge-75886.herokuapp.com
 # HousePricing
 
 HousePricing旨在提供房价的可视化预测，帮助用户更好的评估房产和预测未来的价格
@@ -57,4 +57,4 @@ rake db:seed
 
 **若需要原数据（我目前用的数据），请导入根目录下的`mydb.dump`到postgresql数据库**
 
-外网访问地址：https://stormy-ridge-75886.herokuapp.com
+
